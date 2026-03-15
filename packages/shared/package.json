@@ -2,5 +2,14 @@
   "name": "shared",
   "private": true,
   "module": "./src/index.ts",
-  "exports": { ".": "./src/index.ts" }
+  "exports": {
+  ".": "./src/index.ts"
+},
+"type": "module",
+"devDependencies": {
+  "@types/bun": "latest"
+},
+"peerDependencies": {
+  "typescript": "^5"
+}
 }

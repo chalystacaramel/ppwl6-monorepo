@@ -64,6 +64,12 @@
     },
     "packages/shared": {
       "name": "shared",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
     },
   },
   "packages": {
